@@ -93,7 +93,7 @@ def extract_json_from_response(response: str):
  
 def main():
     # Initialize Groq client
-    client = initialize_client(api_key="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")
+    client = initialize_client(api_key="APIKEY")
  
     # Prompt the user for an image file
     image_path = input("Enter the path to your image file: ").strip()
